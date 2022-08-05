@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+}
+
+.content {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero{
+    display: flex;
+}
+.hero1, .hero2 {
+    position: relative;
+    text-align: left;
+}
+
+.hero1{
+    width: 650px;
+    filter: brightness(0.5);
+    z-index: 1;
+    
+}
+
+.hero2{
+    position: absolute;
+    width: 300px;
+    z-index:2;
+    left: 190px;
+    top: 410px;
+}
+
+.form{
+    padding-right:  400px;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: #053260;
+}
+
+.legend {
+    color: #053260;
+    font-size: 40px;
+}
+
+.textinput {
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    
+}
+
+.submit{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+   
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+

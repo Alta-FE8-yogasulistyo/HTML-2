@@ -1,0 +1,158 @@
+/* style background */
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* style navigasi */
+.wrapper {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navigasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 220px;
+
+}
+
+.navigasi > li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigasi > li > a{
+    color: #053260 ;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigasi > li > .active {
+    color: orange;
+}
+
+.navigasi > li > a:hover{
+    color: orange;
+    transition: all .2s ease-in-out;
+}
+
+.logo {
+    padding-left: 300px;
+}
+
+/* Style Content */
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+}
+.label {
+    background-color: #f4f7fc ;
+    padding: 50px;
+}
+
+.label > h1{
+    justify-content: center;
+    color: #053260;
+    padding-left: 250px;
+}
+
+.contentleft {
+    padding-left: 300px;
+    color: #053260;
+    padding-bottom: 100px;
+}
+
+.paragraph1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.education {
+    padding-bottom: 20px;
+}
+
+.listeducation{
+    padding-left: 18px;
+    padding-bottom: 40px;
+}
+
+.paragraph2 {
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.table, td {
+   border: 1px solid;
+   border-collapse: collapse;
+   padding-right: 40px;
+   padding-bottom: 3px;
+   padding-top: 3px;
+   padding-left: 10px;
+   font-size: 14px;
+   justify-content: center;
+}
+
+
+.hero {
+    padding-top: 40px;
+}
+
+.hero  .jpg2{
+    position: relative;
+    border-radius: 15px;
+    right: 300px;
+   
+}
+
+.hero .jpg1{
+    position: absolute;
+    left: 1255px;
+    top: 520px;
+}
+
+
+/* style footer */
+.footer {
+    width: 100%;
+    height: 170px;
+    background-color: #053260;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > .logofooter {
+    padding-left: 300px;
+}
+
+.footer > .socialmedia li  {
+    float: right;
+    padding-right: 20px;
+    width: 50px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.footer > .socialmedia {
+    color: white;
+    font-size: 18px;
+}
+
+.footer > .copyright {
+    padding-right: 300px;
+    color: white;
+    
+}

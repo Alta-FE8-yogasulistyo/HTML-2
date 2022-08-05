@@ -1,0 +1,131 @@
+/* style background */
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* style navigasi */
+.wrapper {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navigasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 220px;
+
+}
+
+.navigasi > li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigasi > li > a{
+    color: #053260 ;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigasi > li > .active {
+    color: orange;
+}
+
+.navigasi > li > a:hover{
+    color: orange;
+    transition: all .2s ease-in-out;
+}
+
+.logo {
+    padding-left: 300px;
+}
+
+
+/* style content */
+
+.label {
+    background-color: #f4f7fc ;
+    padding: 50px;
+}
+
+.label > h1{
+    justify-content: center;
+    color: #053260;
+    padding-left: 250px;
+}
+
+.content {
+    color: #053260;
+    display: flex;
+    justify-content: center;
+}
+
+.tab1, .tab2, .tab3 {
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px #e2e2e2;
+    list-style-type: none;
+    padding: 20px;
+    margin: 80px;
+
+}
+
+.date1, .date2, .date3 {
+    font-size: 12px;
+    color: #c3c3c3;
+}
+
+.list {
+    list-style-type: disc ;
+    margin-left: 20px;
+}
+
+.nolist {
+    list-style-type: none;
+}
+
+/* style footer */
+.footer {
+    width: 100%;
+    height: 170px;
+    background-color: #053260;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > .logofooter {
+    padding-left: 300px;
+}
+
+.footer > .socialmedia li  {
+    float: right;
+    padding-right: 20px;
+    width: 50px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.footer > .socialmedia {
+    color: white;
+    font-size: 18px;
+}
+
+.footer > .copyright {
+    padding-right: 300px;
+    color: white;
+    
+}
+
+
+
+
